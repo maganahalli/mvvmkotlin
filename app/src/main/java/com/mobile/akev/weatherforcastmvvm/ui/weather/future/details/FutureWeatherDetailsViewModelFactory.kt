@@ -7,6 +7,7 @@ import com.mobile.akev.weatherforcastmvvm.data.repository.ForcastRepository
 import com.mobile.akev.weatherforcastmvvm.ui.weather.future.list.FutureListWeatherViewModel
 import org.threeten.bp.LocalDate
 
+@Suppress("UNCHECKED_CAST")
 class FutureWeatherDetailsViewModelFactory (
     private val detailDate:LocalDate,
     private val forcastRepository: ForcastRepository,

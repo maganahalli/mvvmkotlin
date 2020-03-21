@@ -23,6 +23,7 @@ import org.kodein.di.android.x.closestKodein
 import org.kodein.di.generic.instance
 import org.threeten.bp.LocalDate
 
+@Suppress("NAME_SHADOWING")
 class FutureListWeatherFragment : ScopedFragment(), KodeinAware {
 
     override val kodein by closestKodein()
